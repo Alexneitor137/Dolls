@@ -1,0 +1,204 @@
+body {
+    background-color: #f0b7ca;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #de94ab;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 22px;
+    color: #f9db92;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #f9db92;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.productos_destacados {
+    padding: 20px;
+    text-align: center;
+    background-color: #babc73;
+}
+
+.productos_destacados h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: beige;
+    letter-spacing: 3px;
+}
+
+.seleccion_de_productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.producto {
+    background-color: #f9db92;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    padding: 5px 5px 5px 5px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto; 
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    font-size: 14px;
+    color: #de94ab;
+    margin: 5px;
+}
+
+.producto p {
+    font-size: 10px;
+    margin: 5px;
+}
+
+.producto .precio_y_boton {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-top: 10px;
+    margin-right: 15%;
+}
+
+.producto .precio {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.producto button {
+    background-color: #babc73;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.producto button:hover {
+    background-color: #8db37f;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9db92;
+}
+
+.contacto h2 {
+    font-size: 15px;
+    color: #de94ab;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    background-color: #fef0ccd0;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.formulario label {
+    font-size: 14px;
+    color: #de94ab;
+    text-align: left;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: none;
+    border-color: #de94ab;
+}
+
+.formulario button {
+    background-color: #de94ab;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.formulario button:hover {
+    background-color: #b5d99c;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #de94ab;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer img {
+    width: 5%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.footer p {
+    color: #f9db92;
+    font-size: 12px;
+}
